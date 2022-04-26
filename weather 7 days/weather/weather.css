@@ -1,0 +1,60 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  #cont {
+    display: flex;
+    gap: 60px;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+  }
+  #main {
+    margin: auto;
+    font: 100;
+    font-size: larger;
+    font-style: inherit;
+  }
+  #city {
+    margin: auto;
+    width: 15%;
+    display: flex;
+    text-align: center;
+    height: 20px;
+  }
+  #Search {
+    margin-left: 48%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    width: 5%;
+  }
+  .gmap_canvas {
+    height: 200px;
+    width: 90%;
+    margin: auto;
+  }
+  #sunriseDiv {
+    display: flex;
+    gap: 50px;
+  }
+  #sunsetDiv {
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+  }
+  #sunsetlogo {
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 05px;
+  }
+  * {
+    background-image: url(https://i.redd.it/ibv0x1velhq01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: screen;
+  }
